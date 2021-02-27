@@ -1,0 +1,14 @@
+.Layout {
+  display: grid;
+  grid-template-columns: 22.4rem 1fr;
+  grid-template-rows: 1fr 9.6rem;
+  grid-template-areas:
+                      "sidebar primary"
+                      "bottom-player bottom-player";
+  block-size: 100vh;
+}
+
+.primary {
+  position: relative;
+  grid-area: primary;
+}

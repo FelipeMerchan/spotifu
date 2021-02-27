@@ -5,9 +5,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <meta name="robots" content="index,follow" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="Películas, online, estrenos, streaming" />
+          <meta name="robots" content="index,follow" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="Películas, online, estrenos, streaming" />
         </Head>
         <body>
           <Main />

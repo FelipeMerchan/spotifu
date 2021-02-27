@@ -7,19 +7,37 @@
 //     ╚═╝      ╚═╝   ╚═╝      ╚═════╝
 //
 
-$font: 'Montserrat', sans-serif;
+$font: 'avenir-roman', system-ui;
 
 // Typos
-$h1: 50px;
-$h2: 30px;
-$h3: 20px;
-$p: 13px;
-$small: 10px;
+$headline-1: 3.2rem;
+$subtitle-1: 1.6rem;
+$body: 1.4rem;
+$button: 1.4px;
 
 // Typo Bolds
 
 $black: 800;
-$bolder: 700;
 $medium: 600;
-$normal: 500;
-$light: 400;
+$regular: 400;
+
+@font-face {
+  font-family: 'avenir-roman';
+  src: url('../../fonts/avenir-roman.otf');
+  font-style: normal;
+  font-weight: $regular;
+}
+
+@font-face {
+  font-family: 'avenir-heavy';
+  src: url('../../fonts/avenir-heavy.otf');
+  font-style: normal;
+  font-weight: $medium;
+}
+
+@font-face {
+  font-family: 'avenir-black';
+  src: url('../../fonts/avenir-black.otf');
+  font-style: normal;
+  font-weight: $black;
+}

@@ -1,4 +1,4 @@
-@import '../tokens/spacing.scss'
+@import '../tokens/spacing.scss';
 
 @mixin constructor($num) {
   padding: $num;

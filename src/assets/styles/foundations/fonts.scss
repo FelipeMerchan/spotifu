@@ -4,43 +4,31 @@
 
 body,
 html {
+  font-size: 62.5%;
   font-family: $font;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color: $black_normal;
+  color: $white;
 }
 
 h1 {
-  font-size: $h1;
+  font-size: $headline-1;
+  font-family: 'avenir-black', system-ui;
 }
 
 h2 {
-  font-size: $h2;
-}
-
-h3 {
-  font-size: $h3;
+  font-size: $subtitle-1;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   margin-block-start: $space;
   margin-block-end: $space;
 }
 
 p,
-a,
-.normal {
-  font-size: $p;
+a {
+  font-size: $body;
   margin-block-start: $space;
   margin-block-end: $space;
-}
-
-.small {
-  font-size: $small;
-}
-
-.bold {
-  font-weight: bolder;
 }

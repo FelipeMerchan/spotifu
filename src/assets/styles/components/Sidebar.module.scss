@@ -1,0 +1,81 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+@import '../tokens/typo.scss';
+
+.Sidebar {
+  display: grid;
+  block-size: calc(100vh - 9.6rem);
+  grid-template-rows: 1fr 22.4rem;
+  grid-area: sidebar;
+  background-color: $black-1;
+
+  & > div {
+    padding-block-start: $space-5;
+    padding-inline: $space-3;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;  /* Ocultar scroll */
+  }
+  }
+
+  &__brandContainer {
+    inline-size: 11.4rem;
+    margin-block-end: $space-5;
+  }
+
+  &__menu {
+
+    li {
+      position: relative;
+      block-size: 4rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        inline-size: 100%;
+        block-size: inherit;
+        margin: 0;
+        padding-block: $space;
+        font-size: $body;
+        color: $grey;
+
+        span {
+          display: inline-block;
+          margin-inline-start: $space;
+        }
+      }
+    }
+
+    &__active {
+      &::before {
+        display: inline-block;
+        position: absolute;
+        inset-inline-start: -2rem;
+        inline-size: .4rem;
+        block-size: 100%;
+        background-color: $primary;
+        content: '';
+      }
+
+      a {
+        color: $white !important;
+      }
+    }
+  }
+
+  &__title {
+    margin-block: $space-5 $space;
+    font-size: $body;
+    font-weight: $regular;
+    color: $grey;
+
+    & ~ li {
+
+      a {
+        font-family: 'avenir-black', system-ui;
+        font-weight: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/typo.scss';
+@import '../tokens/colors.scss';
+
+.Input {
+  display: inline-block;
+  block-size: 3rem;
+  inline-size: 20rem;
+  margin-inline-start: $space-2;
+  padding-inline: $space-4;
+  border-radius: 7rem;
+  border: none;
+  background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614414854/spotifu/search-small-black_socvjs.svg');
+  background-repeat: no-repeat;
+  background-position: $space center;
+  background-size: 1.6rem;
+
+  &::placeholder {
+    font-family: $font;
+    font-size: 1.4rem;
+    color: $black-1;
+  }
+}
