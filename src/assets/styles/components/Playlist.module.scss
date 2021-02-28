@@ -1,0 +1,64 @@
+@import '../tokens/typo.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.Playlist {
+  margin-inline-end: $space-2;
+
+  &__imageContainer {
+    position: relative;
+    margin-block-end: $space;
+  }
+
+  &__gradient {
+    position: absolute;
+    inset: 0;
+    opacity: .4;
+    background: linear-gradient(158.94deg, rgba(102, 211, 110, 0.7) -38.44%, rgba(3, 3, 3, 0) 108.26%);
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(23, 23, 23, .5);
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      inline-size: 5.6rem;
+      block-size: 5.6rem;
+      margin-inline: $space-4;
+      padding-inline-start: .5rem;
+      border: 1px solid $white;
+      background-color: rgba(23, 23, 23, .5);
+      border-radius: 50%;
+    }
+  }
+
+  &__title {
+    margin-block-end: $space-half;
+    font-family: $font-black;
+    font-size: $body;
+  }
+
+  &__description {
+    margin: 0;
+    color: $grey;
+    line-height: 2.2rem;
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover .Playlist__bg {
+      opacity: 1;
+      visibility: visible;
+  }
+}

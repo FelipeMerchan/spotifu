@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "run:api": "json-server data.json --static ./dist"
   },
   "author": "Felipe Merchan",
   "license": "MIT",
@@ -16,7 +17,11 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icomoon": "^2.2.4",
-    "sass": "1.32.8"
+    "react-slick": "^0.28.0",
+    "sass": "1.32.8",
+    "slick-carousel": "^1.8.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
 }

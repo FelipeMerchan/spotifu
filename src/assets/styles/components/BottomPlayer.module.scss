@@ -1,3 +1,98 @@
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+@import '../tokens/spacing.scss';
+
 .BottomPlayer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "song player .";
   grid-area: bottom-player;
+  padding-block: $space-2;
+  padding-inline: $space-3;
+  background-color: $black-3;
+
+  &__song {
+    grid-area: song;
+
+    p {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      margin-block-end: $space-half;
+    }
+
+    span {
+      font-size: $body;
+      font-family: $font-black;
+    }
+
+    & span:first-child {
+      margin-inline-end: $space;
+    }
+
+    & span:last-child {
+      color: $grey;
+      font-family: $font;
+    }
+  }
+
+  &__player {
+    display: flex;
+    flex-direction: column;
+    grid-area: player;
+    text-align: center;
+
+    & > div:first-child {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        cursor: pointer;
+      }
+
+      span:nth-of-type(2) {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        inline-size: 3.6rem;
+        block-size: 3.6rem;
+        margin-inline: $space-4;
+        padding-inline-start: .3rem;
+        border: 1px solid $white;
+        border-radius: 50%;
+      }
+    }
+
+    & > div:last-child {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-block-start: $space-half;
+
+      span {
+        font-size: $body;
+        color: $grey;
+      }
+
+      div {
+        position: relative;
+        block-size: .6rem;
+        inline-size: 80%;
+        border-radius: .5rem;
+        background-color: rgba(255, 255, 255, .2);
+
+        div {
+          position: absolute;
+          inset: 0;
+          display: inline-block;
+          content: '';
+          inline-size: 48%;
+          border-radius: .5rem;
+          background-color: rgba(255, 255, 255, .2);
+        }
+      }
+    }
+  }
 }

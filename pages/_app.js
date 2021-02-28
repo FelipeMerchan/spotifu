@@ -1,8 +1,12 @@
+import { useState, useEffect} from 'react'
+
 import Layout from '../src/components/Layout'
 
 import '../src/assets/styles/App.scss'
 
 function MyApp({ Component, pageProps }) {
+  const [ songs, setSongs ] = useState([])
+
   return (
     <Layout>
       <Component {...pageProps} />

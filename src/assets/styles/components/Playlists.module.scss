@@ -1,0 +1,17 @@
+@import '../tokens/typo.scss';
+@import '../tokens/spacing.scss';
+@import '../tokens/colors.scss';
+
+.Playlists {
+  margin-block-end: $space-5;
+
+  &__title {
+    margin-block: $space-2 $space;
+    font-family: $font-heavy;
+  }
+
+  hr {
+    margin-block-end: $space-3;
+    border: 1px solid rgba(125, 125, 125, .2)
+  }
+}
