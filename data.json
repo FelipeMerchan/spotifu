@@ -1,5 +1,5 @@
 {
-  "initalState": {
+  "initialState": {
     "top-playlist": [
       {
         "id": 0,
@@ -23,68 +23,82 @@
       },
       {
         "id": 3,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "Boris Brejcha",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614472992/spotifu/playlists/boris-brejcha_2x_rbjiq3.jpg",
+        "description": "This is Boris Brejcha. The essential tracks, all in one playlist.",
+        "followers": "39,903"
       },
       {
         "id": 4,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "This Is The Weeknd",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614472992/spotifu/playlists/the-weeknd_2x_aveinp.jpg",
+        "description": "This is The Weeknd. The essential tracks, all in one playlist.",
+        "followers": "2,196,265"
       },
       {
         "id": 5,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "This Is Disclosure",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614472991/spotifu/playlists/disclosure_2x_bn2rj2.jpg",
+        "description": "This is Disclosure. The essential tracks, all in one playlist.",
+        "followers": "6,918"
+      },
+      {
+        "id": 6,
+        "name": "This Is Meduza",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614472991/spotifu/playlists/meduza_2x_yc1wtn.jpg",
+        "description": "This is Meduza. The essential tracks, all in one playlist.",
+        "followers": "6,918"
       }
     ],
     "escuchado-recientemente": [
       {
-        "id": 6,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
-      },
-      {
         "id": 7,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "La Bestia",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/la-bestia_2x_zfltiv.jpg",
+        "description": "Top Metal Releases",
+        "followers": "102,046"
       },
       {
         "id": 8,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "Metal del Nuestro",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/metal-del-nuestro_2x_jndjck.jpg",
+        "description": "Metal hecho en iberoamérica.",
+        "followers": "190,557"
       },
       {
         "id": 9,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "Kickass Metal",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/kickass-metal_2x_cgl4q4.jpg",
+        "description": "Lo mejor del metal y flow actual.",
+        "followers": "1,107,648"
       },
       {
         "id": 10,
-        "name": "This Is Tchami",
-        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "name": "Old School Metal",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/old-school-metal_2x_zmoley.jpg",
+        "description": "¡Quiero Metal, dame Metal!",
+        "followers": "175,315"
       },
       {
         "id": 11,
-        "name": "This Is Tchami",
+        "name": "Metal Essentials",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/metal-essentials_2x_eafbnn.jpg",
+        "description": "Better to start with the essentials",
+        "followers": "257,277"
+      },
+      {
+        "id": 12,
+        "name": "Metal Empire",
+        "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614743446/spotifu/playlists/metal-empire_2x_cc5bhy.jpg",
+        "description": "Metal tracks all the way from the bith of metal.",
+        "followers": "36,593"
+      },
+      {
+        "id": 13,
+        "name": "Heavy Metal",
         "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614475328/spotifu/playlists/tchami_2x_dbfeqw.jpg",
-        "description": "This is Tchami. The essential tracks, all in one playlist.",
-        "followers": "44,476"
+        "description": "Heavy metal forever. From classics",
+        "followers": "120,721"
       }
     ]
   }

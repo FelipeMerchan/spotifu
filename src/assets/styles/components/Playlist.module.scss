@@ -4,6 +4,7 @@
 
 .Playlist {
   margin-inline-end: $space-2;
+  cursor: pointer;
 
   &__imageContainer {
     position: relative;
