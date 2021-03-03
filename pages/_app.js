@@ -1,18 +1,8 @@
-import { useState, useEffect} from 'react'
-
 import Layout from '../src/components/Layout'
 
 import '../src/assets/styles/App.scss'
 
 function MyApp({ Component, pageProps }) {
-  const [ playlists, setPlaylists ] = useState([])
-
-  useEffect(() => {
-    fetch(API)
-      .then(response => response.json())
-      .then(data => setVideos(data))
-  }, [])
-
   return (
     <Layout>
       <Component {...pageProps} />
