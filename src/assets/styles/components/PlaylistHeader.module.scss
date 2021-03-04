@@ -1,0 +1,50 @@
+@import '../tokens/typo.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.PlaylistHeader {
+  display: flex;
+
+  &__coverContainer {
+    inline-size: 31.2rem;
+    block-size: 18.3rem;
+    margin-inline-end: $space-3;
+    overflow: hidden;
+  }
+
+  &__cover {
+    height: inherit;
+    object-position: 0 -3.6rem;
+    object-fit: cover;
+  }
+
+  & > div {
+    width: 100%;
+    max-width: 40rem;
+  }
+
+  &__description {
+    margin-block-start: $space-2;
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  &__button {
+    margin-block-start: $space-3;
+    padding-block: $space;
+    padding-inline: $space-4;
+    border: 0;
+    font-size: $button;
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: $primary;
+
+    &:hover {
+      background-color: #1ED760;
+    }
+  }
+}

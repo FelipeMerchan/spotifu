@@ -3,6 +3,7 @@
 @import '../tokens/spacing.scss';
 
 .CarouselItem {
+  position: relative;
   margin-inline-end: $space-2;
   cursor: pointer;
 
@@ -18,7 +19,7 @@
     background: linear-gradient(158.94deg, rgba(102, 211, 110, 0.7) -38.44%, rgba(3, 3, 3, 0) 108.26%);
   }
 
-  &__bg {
+  &__player {
     position: absolute;
     inset: 0;
     display: flex;
@@ -58,8 +59,13 @@
     }
   }
 
-  &:hover .Playlist__bg {
+  &:hover .CarouselItem__player {
       opacity: 1;
       visibility: visible;
+  }
+
+  &__link {
+    position: absolute;
+    inset: 0;
   }
 }

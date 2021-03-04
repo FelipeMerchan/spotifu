@@ -1,0 +1,16 @@
+@import '../tokens/spacing.scss';
+@import '../tokens/typo.scss';
+@import '../tokens/colors.scss';
+
+.Filter {
+  display: flex;
+  align-items: center;
+  padding-block: $space-2;
+  padding-inline: 7.2rem;
+
+  span {
+    margin-inline-start: $space;
+    font-size: $button;
+    color: $grey;
+  }
+}

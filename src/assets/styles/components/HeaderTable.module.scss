@@ -1,0 +1,13 @@
+@import '../tokens/colors.scss';
+@import '../tokens/typo.scss';
+
+.HeaderTable {
+  display: block;
+  padding-inline: 7.2rem;
+
+  th {
+    font-size: $body;
+    text-transform: uppercase;
+    color: $grey;
+  }
+}
