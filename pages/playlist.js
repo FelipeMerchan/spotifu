@@ -8,12 +8,10 @@ import styles from '../src/assets/styles/pages/playlist.module.scss'
 
 const Playlist = () => {
   return (
-    <>
-      <main className={styles.Playlist}>
-        <PlaylistHeader {...data.topPlaylist[0]} />
-        <DataTable className={styles.section} />
-      </main>
-    </>
+    <main className={styles.Playlist}>
+      <PlaylistHeader {...data.topPlaylist[0]} />
+      <DataTable />
+    </main>
   )
 }
 

@@ -7,9 +7,14 @@ import styles from '../assets/styles/components/Table.module.scss'
 const Table = () => {
   return (
     <tbody className={styles.Table}>
-      <tr>
-        <Row />
-      </tr>
+      <Row />
+      <Row />
+      <Row />
+      <Row />
+      <Row />
+      <Row />
+      <Row />
+      <Row />
     </tbody>
   )
 }

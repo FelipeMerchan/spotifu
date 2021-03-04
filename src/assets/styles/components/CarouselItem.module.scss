@@ -6,6 +6,7 @@
   position: relative;
   margin-inline-end: $space-2;
   cursor: pointer;
+  color: $white;
 
   &__imageContainer {
     position: relative;
@@ -60,12 +61,7 @@
   }
 
   &:hover .CarouselItem__player {
-      opacity: 1;
-      visibility: visible;
-  }
-
-  &__link {
-    position: absolute;
-    inset: 0;
+    opacity: 1;
+    visibility: visible;
   }
 }

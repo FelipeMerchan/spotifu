@@ -5,9 +5,20 @@
   display: block;
   padding-inline: 7.2rem;
 
+  tr {
+    display: block;
+  }
+
   th {
+    display: inline-block;
+    inline-size: 25%;
     font-size: $body;
+    text-align: start;
     text-transform: uppercase;
     color: $grey;
+
+    &:last-child {
+      inline-size: 50%;
+    }
   }
 }

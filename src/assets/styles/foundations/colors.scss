@@ -3,3 +3,7 @@
 body {
   background-color: $black-2;
 }
+
+::selection {
+  color: $primary;
+}
