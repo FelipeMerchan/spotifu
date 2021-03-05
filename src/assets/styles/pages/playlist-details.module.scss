@@ -1,5 +1,7 @@
 @import '../tokens/spacing.scss';
 
 .Playlist {
+  margin-block-start: 6.2rem;
+  padding-inline: $space-4;
   padding-block-end: $space-5;
 }

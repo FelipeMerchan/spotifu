@@ -1,0 +1,62 @@
+@import '../tokens/typo.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.Hero {
+  position: relative;
+
+  &__coverContainer {
+    inline-size: 100%;
+    block-size: 43rem;
+  }
+
+  & > div {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(47,47,47);
+    background: -moz-linear-gradient(180deg, rgba(47,47,47,0) 0%, rgba(23,23,23,1) 90%);
+    background: -webkit-linear-gradient(180deg, rgba(47,47,47,0) 0%, rgba(23,23,23,1) 90%);
+    background: linear-gradient(180deg, rgba(47,47,47,0) 0%, rgba(23,23,23,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f2f2f",endColorstr="#171717",GradientType=1);
+  }
+
+  &__cover {
+    height: inherit;
+    object-position: center -8rem;
+    object-fit: cover;
+  }
+
+  &__name {
+    margin: 0;
+    margin-block-end: $space-2;
+  }
+
+  &__description {
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  &__button {
+    margin-block-start: $space-2;
+    padding-block: $space;
+    padding-inline: $space-4;
+    border: 0;
+    font-size: $button;
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: $primary;
+
+    &:hover {
+      background-color: #1ED760;
+    }
+  }
+}

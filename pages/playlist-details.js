@@ -1,15 +1,15 @@
 import React from 'react'
 
-import Hero from '../src/components/Hero'
+import PlaylistHeader from '../src/components/PlaylistHeader'
 import DataTable from '../src/components/DataTable'
 import data from '../data.json'
 
-import styles from '../src/assets/styles/pages/playlist.module.scss'
+import styles from '../src/assets/styles/pages/playlist-details.module.scss'
 
 const Playlist = () => {
   return (
     <main className={styles.Playlist}>
-      <Hero {...data.topPlaylist[0]} />
+      <PlaylistHeader {...data.topPlaylist[0]} />
       <DataTable data={data} />
     </main>
   )
