@@ -32,12 +32,15 @@
     font-size: $body;
   }
 
-  &__name {
+  &__title {
     margin-inline-start: $space-2;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   &__play {
@@ -61,6 +64,9 @@
 
   &__artist {
     cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
     &:hover {
       text-decoration: underline;
@@ -69,6 +75,9 @@
 
   &__album {
     cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
     &:hover {
       text-decoration: underline;

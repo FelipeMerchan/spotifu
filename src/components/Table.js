@@ -4,17 +4,21 @@ import Row from './Row'
 
 import styles from '../assets/styles/components/Table.module.scss'
 
-const Table = () => {
+const Table = ({ data }) => {
   return (
     <tbody className={styles.Table}>
-      <Row />
-      <Row />
-      <Row />
-      <Row />
-      <Row />
-      <Row />
-      <Row />
-      <Row />
+      {
+        data.topPlaylist[0].songs.map(song =>
+          <Row
+            key={song.id}
+            title={song.title}
+            artist={song.artist}
+            album={song.album}
+            date={song.date}
+            duration={song.duration}
+          />
+        )
+      }
     </tbody>
   )
 }

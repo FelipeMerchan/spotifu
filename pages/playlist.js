@@ -10,7 +10,7 @@ const Playlist = () => {
   return (
     <main className={styles.Playlist}>
       <PlaylistHeader {...data.topPlaylist[0]} />
-      <DataTable />
+      <DataTable data={data} />
     </main>
   )
 }

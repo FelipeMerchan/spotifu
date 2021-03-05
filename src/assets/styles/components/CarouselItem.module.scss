@@ -48,6 +48,10 @@
     margin-block-end: $space-half;
     font-family: $font-black;
     font-size: $body;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__description {

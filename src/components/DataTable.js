@@ -6,12 +6,12 @@ import Table from './Table'
 
 import styles from '../assets/styles/components/DataTable.module.scss'
 
-const DataTable = () => {
+const DataTable = ({ data }) => {
   return (
     <table className={styles.DataTable}>
       <Filter />
       <HeaderTable />
-      <Table />
+      <Table data={data} />
     </table>
   )
 }
