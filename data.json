@@ -3,8 +3,9 @@
     {
       "id": 0,
       "name": "This Is Oliver Heldens",
-      "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614918987/spotifu/playlists/oh_2x_dbysez.jpg",
-      "primaryCover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614918987/spotifu/playlists/oliver-heldens-primary-cover_2x_xp1dfh.jpg",
+      "cover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614993654/spotifu/playlists/oh_2x_txoh5t.jpg",
+      "coverMediumSize": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614995038/spotifu/playlists/oliver-heldens-medium-size_2x_auco5j.jpg",
+      "primaryCover": "https://res.cloudinary.com/dy1xcx7kw/image/upload/v1614993655/spotifu/playlists/oliver-heldens-large_iq1kt1.jpg",
       "description": "This is Oliver Heldens. The essential tracks, all in one playlist.",
       "followers": "44,476",
       "songs": [

@@ -47,6 +47,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     inline-size: 2.4rem;
     block-size: 2.4rem;
     margin-inline-end: $space-2;

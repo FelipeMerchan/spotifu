@@ -2,11 +2,11 @@ import React from 'react'
 
 import styles from '../assets/styles/components/PlaylistHeader.module.scss'
 
-const PlaylistHeader = ({ cover, name, description, followers }) => {
+const PlaylistHeader = ({ coverMediumSize, name, description, followers }) => {
   return (
     <article className={styles.PlaylistHeader}>
       <figure className={styles.PlaylistHeader__coverContainer}>
-        <img className={styles.PlaylistHeader__cover} src={cover} width="312" alt={name} title={name} />
+        <img className={styles.PlaylistHeader__cover} src={coverMediumSize} width="312" alt={name} title={name} />
       </figure>
       <div>
         <h1 className={styles.PlaylistHeader__name}>{name}</h1>

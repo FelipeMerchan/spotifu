@@ -20,11 +20,17 @@
       align-items: center;
       margin: 0;
       margin-block-end: $space-half;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     span {
       font-size: $body;
       font-family: $font-black;
+      cursor: pointer;
     }
 
     & span:first-child {
@@ -34,6 +40,11 @@
     & span:last-child {
       color: $grey;
       font-family: $font;
+
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
     }
   }
 
@@ -74,6 +85,10 @@
       span {
         font-size: $body;
         color: $grey;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
 
       div {
